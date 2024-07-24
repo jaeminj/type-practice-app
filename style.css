@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#practice-content {
+    font-size: 18px;
+    color: black;
+}
+
+#practice-content .current-char {
+    color: blue;
+}
+
+#input-area {
+    margin-top: 20px;
+}
+
+#input-area textarea {
+    width: 100%;
+    height: 100px;
+}
+
+#practice-content .wrong-char {
+    color: red;
+}

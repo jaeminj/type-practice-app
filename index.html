@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>타자연습 SPA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>타자연습</h1>
+        <div id="user-selection">
+            <label for="username">아이디/별명:</label>
+            <input type="text" id="username">
+            <label for="language">언어 선택:</label>
+            <select id="language">
+                <option value="ko">한글</option>
+                <option value="en">영어</option>
+            </select>
+            <button onclick="startPractice()">시작</button>
+        </div>
+        <div id="practice-area" style="display: none;">
+            <div id="practice-type-selection">
+                <button onclick="selectPracticeType('keyboard')">자판 연습</button>
+                <button onclick="selectPracticeType('word')">단어 연습</button>
+                <button onclick="selectPracticeType('sentence')">문장 연습</button>
+                <button onclick="selectPracticeType('longText')">긴글 연습</button>
+            </div>
+            <div id="practice-content"></div>
+            <div id="input-area">
+                <textarea id="practice-input"></textarea>
+            </div>
+        </div>
+        <div id="stats-area" style="display: none;">
+            <h2>통계</h2>
+            <div id="stats"></div>
+        </div>
+    </div>
+    <script src="data/enWordList.js"></script>
+    <script src="data/koWordList.js"></script>
+    <script src="data/enSentences.js"></script>
+    <script src="data/koSentences.js"></script>
+    <script src="data/longTexts.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

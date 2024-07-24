@@ -1,0 +1,22 @@
+const enWordList = [
+    "about", "above", "across", "after", "again", "against", "always", "another", "answer", "anyone",
+    "anything", "around", "before", "begin", "behind", "believe", "better", "between", "beyond", "bigger",
+    "bring", "build", "busy", "cannot", "change", "children", "choose", "circle", "common", "complete",
+    "correct", "danger", "decide", "different", "dinner", "divide", "early", "easier", "easily", "education",
+    "enough", "especially", "example", "except", "excuse", "expect", "explain", "family", "famous", "father",
+    "favorite", "follow", "forget", "found", "friend", "friendly", "future", "general", "government", "happy",
+    "healthy", "helpful", "herself", "himself", "history", "however", "important", "inside", "instead", "itself",
+    "knowledge", "language", "larger", "learning", "listen", "little", "longer", "machine", "member", "middle",
+    "million", "minute", "morning", "mother", "mountain", "myself", "nearby", "necessary", "never", "nothing",
+    "notice", "number", "office", "often", "outside", "overcome", "parents", "particular", "people", "person",
+    "picture", "planet", "please", "police", "popular", "possible", "present", "president", "probably", "problem",
+    "process", "produce", "product", "promise", "protect", "provide", "public", "purpose", "question", "quickly",
+    "rather", "really", "reason", "receive", "record", "remember", "report", "require", "respect", "result",
+    "school", "science", "season", "second", "secret", "section", "sentence", "separate", "service", "several",
+    "shoulder", "simple", "sister", "situation", "slowly", "social", "something", "sometimes", "special", "speech",
+    "spirit", "spring", "stand", "statement", "station", "still", "story", "strong", "student", "study",
+    "subject", "success", "suddenly", "summer", "support", "teacher", "telephone", "television", "themselves", "thought",
+    "through", "together", "tonight", "travel", "trouble", "understand", "united", "usually", "village", "voice",
+    "walking", "watch", "weather", "whether", "window", "without", "wonder", "word", "world", "worry",
+    "writing", "yourself", "yesterday", "against", "became", "become", "better", "behind", "cannot", "because"
+];
